@@ -312,6 +312,7 @@ class Game:
                         n = 0
                 if if_all_empty and n == 0:
                     if_conti = True
+                    break
 
             if if_conti:
                 for col in range(19, 0, -1):
